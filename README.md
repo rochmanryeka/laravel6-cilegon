@@ -1,4 +1,4 @@
-## Readme
+# Readme
 
 ## System Requirement
 - PHP 7.2 =<
@@ -7,10 +7,12 @@
 ## Instalasi command
 - git clone https://github.com/rochmanryeka/laravel6-cilegon.git
 - composer install
-(*Windows, gunakan "cp" untuk linux)
 - copy .env.example .env
 - php artisan key:generate
-(buat database baru, setelah itu buka .env, ganti "DB_DATABASE" dengan nama database yg dibuat; misal "belajar_laravel")
 - php artisan migrate
-(seed data dummy untuk blogs)
 - php artisan db:seed --class=blogsSeeder
+
+## Note
+- .env adalah file credential, isi "DB_DATABASE" dengan nama database misal "belajar_laravel"
+- php artisan migarte; untuk migrasi table yg sudah di buat ke database
+- php artisan db:seed; untuk insert data dummy blogs (yg sudah di buat di class=blogsSeeder)
