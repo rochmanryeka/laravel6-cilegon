@@ -12,6 +12,7 @@
 - php artisan key:generate
 - php artisan migrate
 - php artisan db:seed --class=blogsSeeder
+- php artisan serve
 
 ## Note
 - .env adalah file credential, isi "DB_DATABASE" dengan nama database misal "belajar_laravel"
