@@ -3,6 +3,7 @@
 ## System Requirement
 - PHP 7.2 =<
 - Composer
+- Mysql
 
 ## Instalasi command
 - git clone https://github.com/rochmanryeka/laravel6-cilegon.git
